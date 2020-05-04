@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Dirty - button">e9131ef91b6c90108d42ddbbbc4bcbcd</button>
+        <item_parameter display_value="status">dc4f55bd1be890108d42ddbbbc4bcbce</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 00:56:12</sys_created_on>
+        <sys_id>62c3163d1b6c90108d42ddbbbc4bcb75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dc4f55bd1be890108d42ddbbbc4bcbce</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_62c3163d1b6c90108d42ddbbbc4bcb75</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 00:56:12</sys_updated_on>
+        <ui_parameter display_value="dirtyStatus">3993923d1b6c90108d42ddbbbc4bcb0a</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

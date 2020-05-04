@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="DELETE">
+        <description/>
+        <execution_script/>
+        <name>Add Check-in expertClean</name>
+        <query_condition table="x_snc_welcomeback_user_checkins">sys_idSTARTSWITH{{User sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{User sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 21:11:08</sys_created_on>
+        <sys_id>e340a1fd1be890108d42ddbbbc4bcb05</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Add Check-in expertClean</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_e340a1fd1be890108d42ddbbbc4bcb05</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 21:14:14</sys_updated_on>
+        <table>x_snc_welcomeback_user_checkins</table>
+        <template>status={{status}}^qr_code={{QR Code Capture}}^user={{currentUser}}^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="DELETE" query="documentkey=e340a1fd1be890108d42ddbbbc4bcb05"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</application>
+        <file_path/>
+        <instance_id>a82faca64f3b420028b999701310c746</instance_id>
+        <instance_name>hackathon048</instance_name>
+        <name>sys_sg_write_back_action_item_e340a1fd1be890108d42ddbbbc4bcb05</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item"><sys_sg_write_back_action_item action="INSERT_OR_UPDATE"><description/><execution_script/><name>Add Check-in expertClean</name><query_condition table="x_snc_welcomeback_user_checkins">sys_idSTARTSWITH{{User sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{User sys_id}}"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></query_condition><sys_class_name>sys_sg_write_back_action_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-03 21:11:08</sys_created_on><sys_id>e340a1fd1be890108d42ddbbbc4bcb05</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Add Check-in expertClean</sys_name><sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package><sys_policy/><sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope><sys_update_name>sys_sg_write_back_action_item_e340a1fd1be890108d42ddbbbc4bcb05</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-03 21:14:14</sys_updated_on><table>x_snc_welcomeback_user_checkins</table><template>status={{status}}^qr_code={{QR Code Capture}}^user={{currentUser}}^EQ</template><type>new</type><use_current_record_as_condition>false</use_current_record_as_condition></sys_sg_write_back_action_item><sys_translated_text action="delete_multiple" query="documentkey=e340a1fd1be890108d42ddbbbc4bcb05"/></record_update>]]></payload>
+        <payload_hash>-718355651</payload_hash>
+        <record_name>Add Check-in expertClean</record_name>
+        <reverted_from/>
+        <source>a50e72591b2c50108d42ddbbbc4bcbe0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 21:14:14</sys_created_on>
+        <sys_id>b401a9fd1be890108d42ddbbbc4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171dc63b5250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 21:14:14</sys_updated_on>
+        <type>Action item</type>
+        <update_guid>3001a9fddfe8901056ca1e9e1ad8742e</update_guid>
+        <update_guid_history>3001a9fddfe8901056ca1e9e1ad8742e:-718355651,92f069fdbbe89010185d01a0903d5d51:1880035287,c78025fd99e89010386f9cbd8df36577:758031845,2340a1fd1be89010c5a404e16fa6eb08:1625049277</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 00:26:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_write_back_action_item">sys_sg_write_back_action_item</sys_db_object>
+        <sys_id>0747fdfdd310442480b6381e92cf79b1</sys_id>
+        <sys_metadata>e340a1fd1be890108d42ddbbbc4bcb05</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Check-in expertClean</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_scope_delete display_value="">33c63ae650b04e5eabf6c13fa55c5684</sys_scope_delete>
+        <sys_update_name>sys_sg_write_back_action_item_e340a1fd1be890108d42ddbbbc4bcb05</sys_update_name>
+        <sys_update_version display_value="sys_sg_write_back_action_item_e340a1fd1be890108d42ddbbbc4bcb05">b401a9fd1be890108d42ddbbbc4bcb2e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 00:26:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

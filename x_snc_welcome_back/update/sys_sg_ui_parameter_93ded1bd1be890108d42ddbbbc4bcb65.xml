@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
+        <button display_value="I cleaned it - button">478db4b91ba890108d42ddbbbc4bcbd4</button>
+        <button_parent_table/>
+        <carried>false</carried>
+        <constant>clean</constant>
+        <default_value/>
+        <default_value_type>none</default_value_type>
+        <field_name/>
+        <input_source>auto</input_source>
+        <input_style/>
+        <input_type>constant</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>cleanStatus</name>
+        <order/>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 21:05:57</sys_created_on>
+        <sys_id>93ded1bd1be890108d42ddbbbc4bcb65</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>cleanStatus</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_93ded1bd1be890108d42ddbbbc4bcb65</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 22:36:11</sys_updated_on>
+        <table_name/>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="delete_multiple" query="documentkey=93ded1bd1be890108d42ddbbbc4bcb65"/>
+</record_update>

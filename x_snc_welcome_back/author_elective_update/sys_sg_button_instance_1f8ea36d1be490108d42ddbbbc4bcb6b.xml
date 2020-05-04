@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="New Button (User)">023f32991b2c50108d42ddbbbc4bcb28</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Check Status</label>
+        <location>quick_action</location>
+        <name>Check Status</name>
+        <order/>
+        <parent>b91103d91b2c50108d42ddbbbc4bcb19</parent>
+        <parent_table>sys_sg_applet_launcher</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 12:54:08</sys_created_on>
+        <sys_id>1f8ea36d1be490108d42ddbbbc4bcb6b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Check Status</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name>sys_sg_button_instance_1f8ea36d1be490108d42ddbbbc4bcb6b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 18:14:33</sys_updated_on>
+        <table>sys_sg_applet_launcher</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=1f8ea36d1be490108d42ddbbbc4bcb6b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</application>
+        <file_path/>
+        <instance_id>a82faca64f3b420028b999701310c746</instance_id>
+        <instance_name>hackathon048</instance_name>
+        <name>sys_sg_button_instance_1f8ea36d1be490108d42ddbbbc4bcb6b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="New Button (User)">023f32991b2c50108d42ddbbbc4bcb28</button><color_theme>primary</color_theme><description/><field_name/><icon/><label>Check Status</label><location>quick_action</location><name>Check Status</name><order/><parent>b91103d91b2c50108d42ddbbbc4bcb19</parent><parent_table>sys_sg_applet_launcher</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-03 12:54:08</sys_created_on><sys_id>1f8ea36d1be490108d42ddbbbc4bcb6b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Check Status</sys_name><sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package><sys_policy/><sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope><sys_update_name>sys_sg_button_instance_1f8ea36d1be490108d42ddbbbc4bcb6b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-03 18:14:33</sys_updated_on><table>sys_sg_applet_launcher</table></sys_sg_button_instance><sys_translated_text action="delete_multiple" query="documentkey=1f8ea36d1be490108d42ddbbbc4bcb6b"/></record_update>]]></payload>
+        <payload_hash>741711350</payload_hash>
+        <record_name>Check Status</record_name>
+        <reverted_from/>
+        <source>c9e2afdd1b6c50108d42ddbbbc4bcb41</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 19:06:43</sys_created_on>
+        <sys_id>01d3cd7d1ba890108d42ddbbbc4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171dbeef8f50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 19:06:43</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>85e73cb5cda8901001cf7a3805150204</update_guid>
+        <update_guid_history>85e73cb5cda8901001cf7a3805150204:-1604325822,85e73cb5cda8901001cf7a3805150204:-1604325822,d78e276da3e49010ba0f7515c93415aa:1838325766</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 19:06:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>6250ab6055a14d86be0c8a7b416b4524</sys_id>
+        <sys_metadata>1f8ea36d1be490108d42ddbbbc4bcb6b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check Status</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_scope_delete display_value="">33c63ae650b04e5eabf6c13fa55c5684</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_1f8ea36d1be490108d42ddbbbc4bcb6b</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_1f8ea36d1be490108d42ddbbbc4bcb6b">01d3cd7d1ba890108d42ddbbbc4bcb52</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 19:06:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

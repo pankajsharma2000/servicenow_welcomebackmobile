@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="DELETE">
+        <description/>
+        <execution_script/>
+        <name>Add User Checkin</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 17:57:58</sys_created_on>
+        <sys_id>72b3f4351ba890108d42ddbbbc4bcb4e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Add User Checkin</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_72b3f4351ba890108d42ddbbbc4bcb4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 19:58:38</sys_updated_on>
+        <table>x_snc_welcomeback_user_checkins</table>
+        <template>check_in_at=2020-05-03 00:00:00^qr_code={{QR Code}}^user=02826bf03710200044e0bfc8bcbe5d64^status=clean^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="DELETE" query="documentkey=72b3f4351ba890108d42ddbbbc4bcb4e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</application>
+        <file_path/>
+        <instance_id>a82faca64f3b420028b999701310c746</instance_id>
+        <instance_name>hackathon048</instance_name>
+        <name>sys_sg_write_back_action_item_72b3f4351ba890108d42ddbbbc4bcb4e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item"><sys_sg_write_back_action_item action="INSERT_OR_UPDATE"><description/><execution_script/><name>Add User Checkin</name><query_condition/><sys_class_name>sys_sg_write_back_action_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-03 17:57:58</sys_created_on><sys_id>72b3f4351ba890108d42ddbbbc4bcb4e</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Add User Checkin</sys_name><sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package><sys_policy/><sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope><sys_update_name>sys_sg_write_back_action_item_72b3f4351ba890108d42ddbbbc4bcb4e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-03 19:58:38</sys_updated_on><table>x_snc_welcomeback_user_checkins</table><template>check_in_at=2020-05-03 00:00:00^qr_code={{QR Code}}^user=02826bf03710200044e0bfc8bcbe5d64^status=clean^EQ</template><type>new</type><use_current_record_as_condition>true</use_current_record_as_condition></sys_sg_write_back_action_item><sys_translated_text action="delete_multiple" query="documentkey=72b3f4351ba890108d42ddbbbc4bcb4e"/></record_update>]]></payload>
+        <payload_hash>-468731451</payload_hash>
+        <record_name>Add User Checkin</record_name>
+        <reverted_from/>
+        <source>a50e72591b2c50108d42ddbbbc4bcbe0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 19:58:38</sys_created_on>
+        <sys_id>25bf01751be890108d42ddbbbc4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171dc1e7f730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 19:58:38</sys_updated_on>
+        <type>Action item</type>
+        <update_guid>adbf017554e89010cbc32d213db2d90b</update_guid>
+        <update_guid_history>adbf017554e89010cbc32d213db2d90b:-468731451,65ea01b161e8901006b76ca4e1c407fb:826932757,8e14783597a89010c9a0cf92e6d9909b:1930206310</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 21:10:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_write_back_action_item">sys_sg_write_back_action_item</sys_db_object>
+        <sys_id>0688b16ed0304fac85390c1fd0974c24</sys_id>
+        <sys_metadata>72b3f4351ba890108d42ddbbbc4bcb4e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add User Checkin</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_scope_delete display_value="">33c63ae650b04e5eabf6c13fa55c5684</sys_scope_delete>
+        <sys_update_name>sys_sg_write_back_action_item_72b3f4351ba890108d42ddbbbc4bcb4e</sys_update_name>
+        <sys_update_version display_value="sys_sg_write_back_action_item_72b3f4351ba890108d42ddbbbc4bcb4e">25bf01751be890108d42ddbbbc4bcb0c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 21:10:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

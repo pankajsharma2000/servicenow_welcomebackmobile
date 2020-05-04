@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="I cleaned it - button">478db4b91ba890108d42ddbbbc4bcbd4</button>
+        <item_parameter display_value="QR Code Capture">ee32cd3d1ba890108d42ddbbbc4bcbdf</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 19:31:11</sys_created_on>
+        <sys_id>4759c1711be890108d42ddbbbc4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ee32cd3d1ba890108d42ddbbbc4bcbdf</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_4759c1711be890108d42ddbbbc4bcb3e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 19:31:11</sys_updated_on>
+        <ui_parameter display_value="QR Code Scan">d17809311be890108d42ddbbbc4bcb58</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

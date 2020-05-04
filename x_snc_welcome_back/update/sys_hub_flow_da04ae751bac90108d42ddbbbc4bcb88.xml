@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-orlando-12-11-2019__patch3-04-22-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>cleaning_expert_assignments</internal_name>
+        <label_cache>[{"name":"0b102c64-b276-4b81-8ff3-cccd483fb12d.Case","label":"1➛Case","reference":"sn_customerservice_case","reference_display":"Case","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.user.name","label":"Trigger➛User Checkins Record➛User➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.qr_code","label":"Trigger➛User Checkins Record➛QR Code","reference":"","reference_display":"QR Code","type":"string","base_type":"string","parent_table_name":"x_snc_welcomeback_user_checkins","column_name":"qr_code"}]</label_cache>
+        <latest_snapshot>b8f9ee791bac90108d42ddbbbc4bcb1d</latest_snapshot>
+        <master_snapshot>1cd4e6b51bac90108d42ddbbbc4bcb1c</master_snapshot>
+        <name>Cleaning expert assignments</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>a4d4e6b51bac90108d42ddbbbc4bcb8a</remote_trigger_id>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:07:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da04ae751bac90108d42ddbbbc4bcb88</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Cleaning expert assignments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name>sys_hub_flow_da04ae751bac90108d42ddbbbc4bcb88</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:16</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=da04ae751bac90108d42ddbbbc4bcb88"/>
+    <sys_variable_value action="delete_multiple" query="document_key=da04ae751bac90108d42ddbbbc4bcb88"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_welcomeback_user_checkins">status=requestedExpertCleaning<item display_value="Request expert cleaning" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="requestedExpertCleaning"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a4d4e6b51bac90108d42ddbbbc4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:10:29</sys_updated_on>
+        <table>x_snc_welcomeback_user_checkins</table>
+    </sys_flow_record_trigger>
+    <sys_hub_flow_component action="delete_multiple" query="flow=da04ae751bac90108d42ddbbbc4bcb88^sys_idNOT IN87b4a6b51bac90108d42ddbbbc4bcb29,dad8a2791bac90108d42ddbbbc4bcb17"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Case">a7c8dc84e7010300c4726188d2f6a9ca</action_type>
+        <action_type_parent/>
+        <comment>Create a new case and assign it to cleaning experts.</comment>
+        <compiled_snapshot>a7c8dc84e7010300c4726188d2f6a9ca</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Cleaning expert assignments">da04ae751bac90108d42ddbbbc4bcb88</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:06</sys_created_on>
+        <sys_id>87b4a6b51bac90108d42ddbbbc4bcb29</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:54</sys_updated_on>
+        <ui_id>0b102c64-b276-4b81-8ff3-cccd483fb12d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=87b4a6b51bac90108d42ddbbbc4bcb29"/>
+    <sys_element_mapping action="delete_multiple" query="id=87b4a6b51bac90108d42ddbbbc4bcb29"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_case_fields</field>
+        <id>87b4a6b51bac90108d42ddbbbc4bcb29</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:06</sys_created_on>
+        <sys_id>47b4a6b51bac90108d42ddbbbc4bcb2b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:21:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a7c8dc84e7010300c4726188d2f6a9ca</table>
+        <value>short_description=Expert cleaning requested by {{Created_1.current.user.name}} at:  {{Created_1.current.qr_code}} ^description=Cleaning needed at: {{Created_1.current.qr_code}}^state=1^assignment_group={"display":"Cleaning Experts","value":"1033e6751bac90108d42ddbbbc4bcb2a"}^active=true^sys_class_name=sn_customerservice_case</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Post a Message">41ca0f433be0030057a4a2e334efc474</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>41ca0f433be0030057a4a2e334efc474</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Cleaning expert assignments">da04ae751bac90108d42ddbbbc4bcb88</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:05</sys_created_on>
+        <sys_id>dad8a2791bac90108d42ddbbbc4bcb17</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:54</sys_updated_on>
+        <ui_id>7e138510-5f6f-4d1d-82bd-91492ec085fd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dad8a2791bac90108d42ddbbbc4bcb17"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dad8a2791bac90108d42ddbbbc4bcb17</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:05</sys_created_on>
+        <sys_id>9ed8a2791bac90108d42ddbbbc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:05</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="">cdca0f433be0030057a4a2e334efc476</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dad8a2791bac90108d42ddbbbc4bcb17</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:05</sys_created_on>
+        <sys_id>dad8a2791bac90108d42ddbbbc4bcb1a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:08</sys_updated_on>
+        <value/>
+        <variable display_value="">85ca0f433be0030057a4a2e334efc49a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dad8a2791bac90108d42ddbbbc4bcb17"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_channel</field>
+        <id>dad8a2791bac90108d42ddbbbc4bcb17</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:05</sys_created_on>
+        <sys_id>5ad8a2791bac90108d42ddbbbc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>dad8a2791bac90108d42ddbbbc4bcb17</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:05</sys_created_on>
+        <sys_id>96d8a2791bac90108d42ddbbbc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value>A case has been created for your team for service at: {{Created_1.current.qr_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>dad8a2791bac90108d42ddbbbc4bcb17</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:05</sys_created_on>
+        <sys_id>d2d8a2791bac90108d42ddbbbc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=da04ae751bac90108d42ddbbbc4bcb88^sys_idNOT IN83b4a6b51bac90108d42ddbbbc4bcb25"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Cleaning expert assignments">da04ae751bac90108d42ddbbbc4bcb88</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:06</sys_created_on>
+        <sys_id>83b4a6b51bac90108d42ddbbbc4bcb25</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:16</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=83b4a6b51bac90108d42ddbbbc4bcb25"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>83b4a6b51bac90108d42ddbbbc4bcb25</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:06</sys_created_on>
+        <sys_id>07b4a6b51bac90108d42ddbbbc4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:10:06</sys_updated_on>
+        <value>status=requestedExpertCleaning</value>
+        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>83b4a6b51bac90108d42ddbbbc4bcb25</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:06</sys_created_on>
+        <sys_id>4fb4a6b51bac90108d42ddbbbc4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:10:06</sys_updated_on>
+        <value>x_snc_welcomeback_user_checkins</value>
+        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=da04ae751bac90108d42ddbbbc4bcb88^sys_idNOT IN9a04ae751bac90108d42ddbbbc4bcb8a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>da04ae751bac90108d42ddbbbc4bcb88</id>
+        <name>Cleaning expert assignments</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:07:03</sys_created_on>
+        <sys_id>9a04ae751bac90108d42ddbbbc4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:07:03</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=da04ae751bac90108d42ddbbbc4bcb88^sys_idNOT IN4bb4a6b51bac90108d42ddbbbc4bcb1e,72b466b51bac90108d42ddbbbc4bcb8d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Cleaning expert assignments">da04ae751bac90108d42ddbbbc4bcb88</model>
+        <model_id>da04ae751bac90108d42ddbbbc4bcb88</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_da04ae751bac90108d42ddbbbc4bcb88</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:06</sys_created_on>
+        <sys_id>4bb4a6b51bac90108d42ddbbbc4bcb1e</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Cleaning expert assignments">da04ae751bac90108d42ddbbbc4bcb88</model>
+        <model_id>da04ae751bac90108d42ddbbbc4bcb88</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_da04ae751bac90108d42ddbbbc4bcb88</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:06</sys_created_on>
+        <sys_id>72b466b51bac90108d42ddbbbc4bcb8d</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=da04ae751bac90108d42ddbbbc4bcb88^sys_idNOT IN87b4a6b51bac90108d42ddbbbc4bcb29,dad8a2791bac90108d42ddbbbc4bcb17"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Case">a7c8dc84e7010300c4726188d2f6a9ca</action_type>
+        <action_type_parent/>
+        <comment>Create a new case and assign it to cleaning experts.</comment>
+        <compiled_snapshot>a7c8dc84e7010300c4726188d2f6a9ca</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Cleaning expert assignments">da04ae751bac90108d42ddbbbc4bcb88</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:06</sys_created_on>
+        <sys_id>87b4a6b51bac90108d42ddbbbc4bcb29</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:54</sys_updated_on>
+        <ui_id>0b102c64-b276-4b81-8ff3-cccd483fb12d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=87b4a6b51bac90108d42ddbbbc4bcb29"/>
+    <sys_element_mapping action="delete_multiple" query="id=87b4a6b51bac90108d42ddbbbc4bcb29"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_case_fields</field>
+        <id>87b4a6b51bac90108d42ddbbbc4bcb29</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:06</sys_created_on>
+        <sys_id>47b4a6b51bac90108d42ddbbbc4bcb2b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:21:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a7c8dc84e7010300c4726188d2f6a9ca</table>
+        <value>short_description=Expert cleaning requested by {{Created_1.current.user.name}} at:  {{Created_1.current.qr_code}} ^description=Cleaning needed at: {{Created_1.current.qr_code}}^state=1^assignment_group={"display":"Cleaning Experts","value":"1033e6751bac90108d42ddbbbc4bcb2a"}^active=true^sys_class_name=sn_customerservice_case</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Post a Message">41ca0f433be0030057a4a2e334efc474</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>41ca0f433be0030057a4a2e334efc474</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Cleaning expert assignments">da04ae751bac90108d42ddbbbc4bcb88</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:05</sys_created_on>
+        <sys_id>dad8a2791bac90108d42ddbbbc4bcb17</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:54</sys_updated_on>
+        <ui_id>7e138510-5f6f-4d1d-82bd-91492ec085fd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dad8a2791bac90108d42ddbbbc4bcb17"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dad8a2791bac90108d42ddbbbc4bcb17</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:05</sys_created_on>
+        <sys_id>9ed8a2791bac90108d42ddbbbc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:05</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="">cdca0f433be0030057a4a2e334efc476</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dad8a2791bac90108d42ddbbbc4bcb17</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:05</sys_created_on>
+        <sys_id>dad8a2791bac90108d42ddbbbc4bcb1a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:08</sys_updated_on>
+        <value/>
+        <variable display_value="">85ca0f433be0030057a4a2e334efc49a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dad8a2791bac90108d42ddbbbc4bcb17"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_channel</field>
+        <id>dad8a2791bac90108d42ddbbbc4bcb17</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:05</sys_created_on>
+        <sys_id>5ad8a2791bac90108d42ddbbbc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>dad8a2791bac90108d42ddbbbc4bcb17</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:05</sys_created_on>
+        <sys_id>96d8a2791bac90108d42ddbbbc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value>A case has been created for your team for service at: {{Created_1.current.qr_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>dad8a2791bac90108d42ddbbbc4bcb17</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:05</sys_created_on>
+        <sys_id>d2d8a2791bac90108d42ddbbbc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dad8a2791bac90108d42ddbbbc4bcb17^sys_idNOT IN1ad8a2791bac90108d42ddbbbc4bcb19,9ed8a2791bac90108d42ddbbbc4bcb18"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_channel</input_name>
+        <instance>dad8a2791bac90108d42ddbbbc4bcb17</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_channel":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:05</sys_created_on>
+        <sys_id>1ad8a2791bac90108d42ddbbbc4bcb19</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:08</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_username</input_name>
+        <instance>dad8a2791bac90108d42ddbbbc4bcb17</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_username":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:05</sys_created_on>
+        <sys_id>9ed8a2791bac90108d42ddbbbc4bcb18</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:08</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_da04ae751bac90108d42ddbbbc4bcb88^sys_idNOT IN4fb4a6b51bac90108d42ddbbbc4bcb1c,c7b4a6b51bac90108d42ddbbbc4bcb22"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_da04ae751bac90108d42ddbbbc4bcb88</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:06</sys_created_on>
+        <sys_id>4fb4a6b51bac90108d42ddbbbc4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:10:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_da04ae751bac90108d42ddbbbc4bcb88</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:06</sys_created_on>
+        <sys_id>c7b4a6b51bac90108d42ddbbbc4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:10:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=da04ae751bac90108d42ddbbbc4bcb88^sys_idNOT IN60d4e6b51bac90108d42ddbbbc4bcb8b"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"60d4e6b51bac90108d42ddbbbc4bcb8b","name":"plan"}}</plan>
+        <plan_id>da04ae751bac90108d42ddbbbc4bcb88</plan_id>
+        <snapshot>b8f9ee791bac90108d42ddbbbc4bcb1d</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>60d4e6b51bac90108d42ddbbbc4bcb8b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:16</sys_updated_on>
+        <trigger display_value="">a4d4e6b51bac90108d42ddbbbc4bcb8a</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>cleaning_expert_assignments</internal_name>
+        <label_cache>[{"name":"0b102c64-b276-4b81-8ff3-cccd483fb12d.Case","label":"1➛Case","reference":"sn_customerservice_case","reference_display":"Case","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.user.name","label":"Trigger➛User Checkins Record➛User➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.qr_code","label":"Trigger➛User Checkins Record➛QR Code","reference":"","reference_display":"QR Code","type":"string","base_type":"string","parent_table_name":"x_snc_welcomeback_user_checkins","column_name":"qr_code"}]</label_cache>
+        <master>true</master>
+        <name>Cleaning expert assignments</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Cleaning expert assignments">da04ae751bac90108d42ddbbbc4bcb88</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1cd4e6b51bac90108d42ddbbbc4bcb1c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:15</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=1cd4e6b51bac90108d42ddbbbc4bcb1c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1cd4e6b51bac90108d42ddbbbc4bcb1c"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=1cd4e6b51bac90108d42ddbbbc4bcb1c^sys_idNOT IN860926791bac90108d42ddbbbc4bcbb4,94d4e6b51bac90108d42ddbbbc4bcb7e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Post a Message">41ca0f433be0030057a4a2e334efc474</action_type>
+        <action_type_parent display_value="Post a Message">d3b4e24b3ba0030057a4a2e334efc4e4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>41ca0f433be0030057a4a2e334efc474</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Cleaning expert assignments">1cd4e6b51bac90108d42ddbbbc4bcb1c</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:52</sys_created_on>
+        <sys_id>860926791bac90108d42ddbbbc4bcbb4</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:15</sys_updated_on>
+        <ui_id>7e138510-5f6f-4d1d-82bd-91492ec085fd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=860926791bac90108d42ddbbbc4bcbb4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>860926791bac90108d42ddbbbc4bcbb4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:52</sys_created_on>
+        <sys_id>0e0926791bac90108d42ddbbbc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:52</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="">cdca0f433be0030057a4a2e334efc476</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>860926791bac90108d42ddbbbc4bcbb4</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:52</sys_created_on>
+        <sys_id>4a0926791bac90108d42ddbbbc4bcbb6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:15</sys_updated_on>
+        <value/>
+        <variable display_value="">85ca0f433be0030057a4a2e334efc49a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=860926791bac90108d42ddbbbc4bcbb4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_channel</field>
+        <id>860926791bac90108d42ddbbbc4bcbb4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:52</sys_created_on>
+        <sys_id>c60926791bac90108d42ddbbbc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>860926791bac90108d42ddbbbc4bcbb4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:52</sys_created_on>
+        <sys_id>060926791bac90108d42ddbbbc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value>A case has been created for your team for service at: {{Created_1.current.qr_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>860926791bac90108d42ddbbbc4bcbb4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:52</sys_created_on>
+        <sys_id>420926791bac90108d42ddbbbc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Case">a7c8dc84e7010300c4726188d2f6a9ca</action_type>
+        <action_type_parent display_value="Create Case">a7b8733be7b00300c4726188d2f6a913</action_type_parent>
+        <comment>Create a new case and assign it to cleaning experts.</comment>
+        <compiled_snapshot>a7c8dc84e7010300c4726188d2f6a9ca</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Cleaning expert assignments">1cd4e6b51bac90108d42ddbbbc4bcb1c</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:28</sys_created_on>
+        <sys_id>94d4e6b51bac90108d42ddbbbc4bcb7e</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:15</sys_updated_on>
+        <ui_id>0b102c64-b276-4b81-8ff3-cccd483fb12d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=94d4e6b51bac90108d42ddbbbc4bcb7e"/>
+    <sys_element_mapping action="delete_multiple" query="id=94d4e6b51bac90108d42ddbbbc4bcb7e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_case_fields</field>
+        <id>94d4e6b51bac90108d42ddbbbc4bcb7e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:28</sys_created_on>
+        <sys_id>d0d4e6b51bac90108d42ddbbbc4bcb7f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:22:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a7c8dc84e7010300c4726188d2f6a9ca</table>
+        <value>short_description=Expert cleaning requested by {{Created_1.current.user.name}} at:  {{Created_1.current.qr_code}} ^description=Cleaning needed at: {{Created_1.current.qr_code}}^state=1^assignment_group={"display":"Cleaning Experts","value":"1033e6751bac90108d42ddbbbc4bcb2a"}^active=true^sys_class_name=sn_customerservice_case</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=1cd4e6b51bac90108d42ddbbbc4bcb1c^sys_idNOT IN94d4e6b51bac90108d42ddbbbc4bcb7f"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Cleaning expert assignments">1cd4e6b51bac90108d42ddbbbc4bcb1c</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:28</sys_created_on>
+        <sys_id>94d4e6b51bac90108d42ddbbbc4bcb7f</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:16</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=94d4e6b51bac90108d42ddbbbc4bcb7f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>94d4e6b51bac90108d42ddbbbc4bcb7f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:28</sys_created_on>
+        <sys_id>18d4e6b51bac90108d42ddbbbc4bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:10:28</sys_updated_on>
+        <value>status=requestedExpertCleaning</value>
+        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>94d4e6b51bac90108d42ddbbbc4bcb7f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:28</sys_created_on>
+        <sys_id>d8d4e6b51bac90108d42ddbbbc4bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:10:28</sys_updated_on>
+        <value>x_snc_welcomeback_user_checkins</value>
+        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=1cd4e6b51bac90108d42ddbbbc4bcb1c^sys_idNOT IN1cd4e6b51bac90108d42ddbbbc4bcb1d"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>1cd4e6b51bac90108d42ddbbbc4bcb1c</id>
+        <name>Cleaning expert assignments</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:28</sys_created_on>
+        <sys_id>1cd4e6b51bac90108d42ddbbbc4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:10:28</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=1cd4e6b51bac90108d42ddbbbc4bcb1c^sys_idNOT IN5cd4e6b51bac90108d42ddbbbc4bcb1e,d4d4e6b51bac90108d42ddbbbc4bcb71"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Cleaning expert assignments">1cd4e6b51bac90108d42ddbbbc4bcb1c</model>
+        <model_id>1cd4e6b51bac90108d42ddbbbc4bcb1c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_1cd4e6b51bac90108d42ddbbbc4bcb1c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:28</sys_created_on>
+        <sys_id>5cd4e6b51bac90108d42ddbbbc4bcb1e</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Cleaning expert assignments">1cd4e6b51bac90108d42ddbbbc4bcb1c</model>
+        <model_id>1cd4e6b51bac90108d42ddbbbc4bcb1c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_1cd4e6b51bac90108d42ddbbbc4bcb1c</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:28</sys_created_on>
+        <sys_id>d4d4e6b51bac90108d42ddbbbc4bcb71</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=1cd4e6b51bac90108d42ddbbbc4bcb1c^sys_idNOT IN860926791bac90108d42ddbbbc4bcbb4,94d4e6b51bac90108d42ddbbbc4bcb7e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Post a Message">41ca0f433be0030057a4a2e334efc474</action_type>
+        <action_type_parent display_value="Post a Message">d3b4e24b3ba0030057a4a2e334efc4e4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>41ca0f433be0030057a4a2e334efc474</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Cleaning expert assignments">1cd4e6b51bac90108d42ddbbbc4bcb1c</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:52</sys_created_on>
+        <sys_id>860926791bac90108d42ddbbbc4bcbb4</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:15</sys_updated_on>
+        <ui_id>7e138510-5f6f-4d1d-82bd-91492ec085fd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=860926791bac90108d42ddbbbc4bcbb4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>860926791bac90108d42ddbbbc4bcbb4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:52</sys_created_on>
+        <sys_id>0e0926791bac90108d42ddbbbc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:52</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="">cdca0f433be0030057a4a2e334efc476</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>860926791bac90108d42ddbbbc4bcbb4</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:52</sys_created_on>
+        <sys_id>4a0926791bac90108d42ddbbbc4bcbb6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:15</sys_updated_on>
+        <value/>
+        <variable display_value="">85ca0f433be0030057a4a2e334efc49a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=860926791bac90108d42ddbbbc4bcbb4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_channel</field>
+        <id>860926791bac90108d42ddbbbc4bcbb4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:52</sys_created_on>
+        <sys_id>c60926791bac90108d42ddbbbc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>860926791bac90108d42ddbbbc4bcbb4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:52</sys_created_on>
+        <sys_id>060926791bac90108d42ddbbbc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value>A case has been created for your team for service at: {{Created_1.current.qr_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>860926791bac90108d42ddbbbc4bcbb4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:52</sys_created_on>
+        <sys_id>420926791bac90108d42ddbbbc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:28:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=860926791bac90108d42ddbbbc4bcbb4^sys_idNOT IN0a0926791bac90108d42ddbbbc4bcbb5,0e0926791bac90108d42ddbbbc4bcbb5"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_username</input_name>
+        <instance>860926791bac90108d42ddbbbc4bcbb4</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_username":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:52</sys_created_on>
+        <sys_id>0a0926791bac90108d42ddbbbc4bcbb5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:15</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_channel</input_name>
+        <instance>860926791bac90108d42ddbbbc4bcbb4</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_channel":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:28:52</sys_created_on>
+        <sys_id>0e0926791bac90108d42ddbbbc4bcbb5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:15</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Case">a7c8dc84e7010300c4726188d2f6a9ca</action_type>
+        <action_type_parent display_value="Create Case">a7b8733be7b00300c4726188d2f6a913</action_type_parent>
+        <comment>Create a new case and assign it to cleaning experts.</comment>
+        <compiled_snapshot>a7c8dc84e7010300c4726188d2f6a9ca</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Cleaning expert assignments">1cd4e6b51bac90108d42ddbbbc4bcb1c</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:28</sys_created_on>
+        <sys_id>94d4e6b51bac90108d42ddbbbc4bcb7e</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:32:15</sys_updated_on>
+        <ui_id>0b102c64-b276-4b81-8ff3-cccd483fb12d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=94d4e6b51bac90108d42ddbbbc4bcb7e"/>
+    <sys_element_mapping action="delete_multiple" query="id=94d4e6b51bac90108d42ddbbbc4bcb7e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_case_fields</field>
+        <id>94d4e6b51bac90108d42ddbbbc4bcb7e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:28</sys_created_on>
+        <sys_id>d0d4e6b51bac90108d42ddbbbc4bcb7f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:22:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a7c8dc84e7010300c4726188d2f6a9ca</table>
+        <value>short_description=Expert cleaning requested by {{Created_1.current.user.name}} at:  {{Created_1.current.qr_code}} ^description=Cleaning needed at: {{Created_1.current.qr_code}}^state=1^assignment_group={"display":"Cleaning Experts","value":"1033e6751bac90108d42ddbbbc4bcb2a"}^active=true^sys_class_name=sn_customerservice_case</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1cd4e6b51bac90108d42ddbbbc4bcb1c^sys_idNOT IN10d4e6b51bac90108d42ddbbbc4bcb76,1cd4e6b51bac90108d42ddbbbc4bcb2f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1cd4e6b51bac90108d42ddbbbc4bcb1c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:28</sys_created_on>
+        <sys_id>10d4e6b51bac90108d42ddbbbc4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:10:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1cd4e6b51bac90108d42ddbbbc4bcb1c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 02:10:28</sys_created_on>
+        <sys_id>1cd4e6b51bac90108d42ddbbbc4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 02:10:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

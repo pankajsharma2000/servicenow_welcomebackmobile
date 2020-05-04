@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="User Item Stream">4a3f32991b2c50108d42ddbbbc4bcb0b</item_stream>
+        <segment display_value="User Item Stream Segment">ca3f32991b2c50108d42ddbbbc4bcb0a</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 14:48:51</sys_created_on>
+        <sys_id>4a3f32991b2c50108d42ddbbbc4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_4a3f32991b2c50108d42ddbbbc4bcb0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 14:48:51</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

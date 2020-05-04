@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Launcher Button">a95187d91b2c50108d42ddbbbc4bcb4b</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon display_value="User Icon">295187d91b2c50108d42ddbbbc4bcb49</icon>
+        <label>Check-in Launcher Button Instance</label>
+        <location>top</location>
+        <name>Check-in Launcher Button Instance</name>
+        <order/>
+        <parent>b91103d91b2c50108d42ddbbbc4bcb19</parent>
+        <parent_table>sys_sg_applet_launcher</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 14:58:06</sys_created_on>
+        <sys_id>615187d91b2c50108d42ddbbbc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check-in Launcher Button Instance</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name>sys_sg_button_instance_615187d91b2c50108d42ddbbbc4bcb4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 14:58:06</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=615187d91b2c50108d42ddbbbc4bcb4e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</application>
+        <file_path/>
+        <instance_id>a82faca64f3b420028b999701310c746</instance_id>
+        <instance_name>hackathon048</instance_name>
+        <name>sys_sg_button_instance_615187d91b2c50108d42ddbbbc4bcb4e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="Launcher Button">a95187d91b2c50108d42ddbbbc4bcb4b</button><color_theme>primary</color_theme><description/><field_name/><icon display_value="User Icon">295187d91b2c50108d42ddbbbc4bcb49</icon><label>Check-in Launcher Button Instance</label><location>top</location><name>Check-in Launcher Button Instance</name><order/><parent>b91103d91b2c50108d42ddbbbc4bcb19</parent><parent_table>sys_sg_applet_launcher</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-02 14:58:06</sys_created_on><sys_id>615187d91b2c50108d42ddbbbc4bcb4e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Check-in Launcher Button Instance</sys_name><sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package><sys_policy/><sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope><sys_update_name>sys_sg_button_instance_615187d91b2c50108d42ddbbbc4bcb4e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-02 14:58:06</sys_updated_on><table/></sys_sg_button_instance><sys_translated_text action="delete_multiple" query="documentkey=615187d91b2c50108d42ddbbbc4bcb4e"/></record_update>]]></payload>
+        <payload_hash>1318142986</payload_hash>
+        <record_name>Check-in Launcher Button Instance</record_name>
+        <reverted_from/>
+        <source>a50e72591b2c50108d42ddbbbc4bcbe0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 14:58:06</sys_created_on>
+        <sys_id>e15187d91b2c50108d42ddbbbc4bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d5e4ffb80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 14:58:06</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>2d5187d9b02c5010eecfc2ba34dcbb4f</update_guid>
+        <update_guid_history>2d5187d9b02c5010eecfc2ba34dcbb4f:1318142986</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 14:59:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>0f78aadb878b4c679e59ba32bdfc3289</sys_id>
+        <sys_metadata>615187d91b2c50108d42ddbbbc4bcb4e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check-in Launcher Button Instance</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_scope_delete display_value="">33c63ae650b04e5eabf6c13fa55c5684</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_615187d91b2c50108d42ddbbbc4bcb4e</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_615187d91b2c50108d42ddbbbc4bcb4e">e15187d91b2c50108d42ddbbbc4bcb50</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 14:59:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

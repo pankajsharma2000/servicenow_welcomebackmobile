@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item/>
+        <dependency_fields>qr_code-43046,status-3907,sys_created_on-22124,user.name-3092,user.phone-20170</dependency_fields>
+        <item_view_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Stretch","Distribution":"Auto","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Children":[{"Type":"ViewGroup","Id":42845,"Orientation":"Vertical","Alignment":"Left","Distribution":"Equal","Children":[{"Type":"ViewGroup","CornerRadius":2,"BackgroundColor":"#f1f1f1","Height":20,"Margin":{},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Id":43045,"Type":"Text","studio_ignore":true,"Margin":{"Left":8},"TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":10,"Name":"Font Awesome 5 Pro Regular"}},{"Type":"Text","studio_template_field_id":"E1","Margin":{"Left":6,"Right":8,"Top":3,"Bottom":3},"Text":"","CellId":"qr_code","TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":43046}],"Id":3484}]},{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Right","Distribution":"Equal","Children":[{"Type":"Text","studio_template_field_id":"E2","Id":3907,"Text":"","CellId":"status","TextColor":"#637274","TextAlignment":"Right","MaxLines":1,"Font":{"Weight":"bold","Size":13}}],"Id":42846}],"Id":12259},{"Type":"Text","studio_template_field_id":"E3","Margin":{"Top":10},"Id":22124,"CellId":"sys_created_on","TextColor":"#333e3f","TextAlignment":"Left","MaxLines":2,"Font":{"Weight":"regular","Size":18}},{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Left","Distribution":"Equal","Children":[{"Type":"ViewGroup","Margin":{"Top":9},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Text","studio_template_is_label":true,"Margin":{},"Text":"${status}","TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":3091},{"Type":"Text","studio_template_field_id":"E4","Margin":{"Left":8},"CellId":"user.name","TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":3092}],"Id":34348}],"Id":12261},{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Left","Distribution":"Equal","Children":[{"Type":"ViewGroup","Margin":{"Top":17},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Image","studio_template_field_id":"E5","CornerRadius":12,"Height":24,"Width":24,"CellId":"user.phone","Scaling":"Fill","Id":20170},{"Type":"Text","Margin":{"Left":8},"studio_template_is_label":true,"studio_template_field_id":"E6","TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":10133},{"Type":"Text","studio_template_field_id":"E6","Margin":{"Left":3},"TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":10134}],"Id":24212}],"Id":12262}],"Id":28090,"studio_card_id":"abc505b30f733300c46f5cbac4767e29"}</item_view_json>
+        <name>Check-in Item View</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 16:00:39</sys_created_on>
+        <sys_id>a73958751b6890108d42ddbbbc4bcbf8</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>Check-in Item View</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name>sys_sg_item_view_a73958751b6890108d42ddbbbc4bcbf8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 03:49:08</sys_updated_on>
+        <table>x_snc_welcomeback_user_checkins</table>
+        <ui_styles>4b8f16f11bac90108d42ddbbbc4bcba8,2a11e2351bac90108d42ddbbbc4bcb5e,bd3c16711bac90108d42ddbbbc4bcbf8,3c726e351bac90108d42ddbbbc4bcb5e</ui_styles>
+    </sys_sg_item_view>
+    <sys_translated_text action="delete_multiple" query="documentkey=a73958751b6890108d42ddbbbc4bcbf8"/>
+</record_update>

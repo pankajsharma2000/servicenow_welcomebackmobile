@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="5ee35b951b6c50108d42ddbbbc4bcb90" sys_domain="global" table="x_snc_welcomeback_user_checkins" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-02 16:19:15</sys_created_on>
+            <sys_id>9ee35b951b6c50108d42ddbbbc4bcbd9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_welcomeback_user_checkins" sys_domain="global" view="Default view">5ee35b951b6c50108d42ddbbbc4bcb90</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-02 16:19:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_snc_welcomeback_user_checkins</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-02 16:19:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ee35b951b6c50108d42ddbbbc4bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Section</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+            <sys_update_name>sys_ui_section_5ee35b951b6c50108d42ddbbbc4bcb90</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-02 16:19:15</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</application>
+        <file_path/>
+        <instance_id>a82faca64f3b420028b999701310c746</instance_id>
+        <instance_name>hackathon048</instance_name>
+        <name>sys_ui_section_5ee35b951b6c50108d42ddbbbc4bcb90</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="5ee35b951b6c50108d42ddbbbc4bcb90" sys_domain="global" table="x_snc_welcomeback_user_checkins" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-02 16:19:15</sys_created_on><sys_id>9ee35b951b6c50108d42ddbbbc4bcbd9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_welcomeback_user_checkins" sys_domain="global" view="Default view">5ee35b951b6c50108d42ddbbbc4bcb90</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-02 16:19:15</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_snc_welcomeback_user_checkins</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-02 16:19:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5ee35b951b6c50108d42ddbbbc4bcb90</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Section</sys_name><sys_overrides/><sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package><sys_policy/><sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope><sys_update_name>sys_ui_section_5ee35b951b6c50108d42ddbbbc4bcb90</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-02 16:19:15</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1961541175</payload_hash>
+        <record_name>User Checkins</record_name>
+        <reverted_from/>
+        <source>a50e72591b2c50108d42ddbbbc4bcbe0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 16:19:16</sys_created_on>
+        <sys_id>d6e35b951b6c50108d42ddbbbc4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d62f4bb20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 16:19:16</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>52e35b95db6c50101d432e49f24561db</update_guid>
+        <update_guid_history>52e35b95db6c50101d432e49f24561db:-1961541175</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 16:19:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1a49785c32164cbc89a0cf7c9c151a24</sys_id>
+        <sys_metadata>5ee35b951b6c50108d42ddbbbc4bcb90</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_parent display_value="User Checkins">4073c6951ba850108d42ddbbbc4bcb52</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_scope_delete display_value="">33c63ae650b04e5eabf6c13fa55c5684</sys_scope_delete>
+        <sys_update_name>sys_ui_section_5ee35b951b6c50108d42ddbbbc4bcb90</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_5ee35b951b6c50108d42ddbbbc4bcb90">d6e35b951b6c50108d42ddbbbc4bcbdb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 16:19:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

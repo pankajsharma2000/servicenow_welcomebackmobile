@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="DELETE">
+        <button display_value="I cleaned it - button">478db4b91ba890108d42ddbbbc4bcbd4</button>
+        <item_parameter display_value="Status">7062417d1ba890108d42ddbbbc4bcb40</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 19:40:23</sys_created_on>
+        <sys_id>167bc5b11be890108d42ddbbbc4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7062417d1ba890108d42ddbbbc4bcb40</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_167bc5b11be890108d42ddbbbc4bcbbd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 19:40:23</sys_updated_on>
+        <ui_parameter display_value="status">700b81b11be890108d42ddbbbc4bcb37</ui_parameter>
+    </sys_sg_action_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</application>
+        <file_path/>
+        <instance_id>a82faca64f3b420028b999701310c746</instance_id>
+        <instance_name>hackathon048</instance_name>
+        <name>sys_sg_action_param_map_167bc5b11be890108d42ddbbbc4bcbbd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map"><sys_sg_action_param_map action="INSERT_OR_UPDATE"><button display_value="I cleaned it - button">478db4b91ba890108d42ddbbbc4bcbd4</button><item_parameter display_value="Status">7062417d1ba890108d42ddbbbc4bcb40</item_parameter><sys_class_name>sys_sg_action_param_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-03 19:40:23</sys_created_on><sys_id>167bc5b11be890108d42ddbbbc4bcbbd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>7062417d1ba890108d42ddbbbc4bcb40</sys_name><sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package><sys_policy/><sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope><sys_update_name>sys_sg_action_param_map_167bc5b11be890108d42ddbbbc4bcbbd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-03 19:40:23</sys_updated_on><ui_parameter display_value="status">700b81b11be890108d42ddbbbc4bcb37</ui_parameter></sys_sg_action_param_map></record_update>]]></payload>
+        <payload_hash>1572225822</payload_hash>
+        <record_name>7062417d1ba890108d42ddbbbc4bcb40</record_name>
+        <reverted_from/>
+        <source>a50e72591b2c50108d42ddbbbc4bcbe0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 19:40:23</sys_created_on>
+        <sys_id>ca8b09b11be890108d42ddbbbc4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171dc0dc8b20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 19:40:23</sys_updated_on>
+        <type>Action parameters mapping</type>
+        <update_guid>068b09b13fe89010c5ed6f0b99c52be2</update_guid>
+        <update_guid_history>068b09b13fe89010c5ed6f0b99c52be2:1572225822</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 19:45:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_action_param_map">sys_sg_action_param_map</sys_db_object>
+        <sys_id>37d16b8549444b50983f1301e15a6100</sys_id>
+        <sys_metadata>167bc5b11be890108d42ddbbbc4bcbbd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7062417d1ba890108d42ddbbbc4bcb40</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_scope_delete display_value="">33c63ae650b04e5eabf6c13fa55c5684</sys_scope_delete>
+        <sys_update_name>sys_sg_action_param_map_167bc5b11be890108d42ddbbbc4bcbbd</sys_update_name>
+        <sys_update_version display_value="sys_sg_action_param_map_167bc5b11be890108d42ddbbbc4bcbbd">ca8b09b11be890108d42ddbbbc4bcbe2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 19:45:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="DELETE">
+        <icon>{"Shape":"Circle","FontName":"now-mobile-icons","FontColor":"#FFFFFF","BackgroundColor":"#2e2e2e","Value":"e935","Name":"icon-Cart","type":"user"}</icon>
+        <name>User Icon</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 14:57:02</sys_created_on>
+        <sys_id>7511c3d91b2c50108d42ddbbbc4bcbb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Icon</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_update_name>sys_sg_icon_7511c3d91b2c50108d42ddbbbc4bcbb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 14:57:02</sys_updated_on>
+        <type>font</type>
+    </sys_sg_icon>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</application>
+        <file_path/>
+        <instance_id>a82faca64f3b420028b999701310c746</instance_id>
+        <instance_name>hackathon048</instance_name>
+        <name>sys_sg_icon_7511c3d91b2c50108d42ddbbbc4bcbb4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon"><sys_sg_icon action="INSERT_OR_UPDATE"><icon>{"Shape":"Circle","FontName":"now-mobile-icons","FontColor":"#FFFFFF","BackgroundColor":"#2e2e2e","Value":"e935","Name":"icon-Cart","type":"user"}</icon><name>User Icon</name><sys_class_name>sys_sg_icon</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-02 14:57:02</sys_created_on><sys_id>7511c3d91b2c50108d42ddbbbc4bcbb4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Icon</sys_name><sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package><sys_policy/><sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope><sys_update_name>sys_sg_icon_7511c3d91b2c50108d42ddbbbc4bcbb4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-02 14:57:02</sys_updated_on><type>font</type></sys_sg_icon></record_update>]]></payload>
+        <payload_hash>-286634024</payload_hash>
+        <record_name>User Icon</record_name>
+        <reverted_from/>
+        <source>a50e72591b2c50108d42ddbbbc4bcbe0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 14:57:02</sys_created_on>
+        <sys_id>f511c3d91b2c50108d42ddbbbc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d5e404390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 14:57:02</sys_updated_on>
+        <type>Icon</type>
+        <update_guid>3111c3d9542c501033a7e82bea20abb6</update_guid>
+        <update_guid_history>3111c3d9542c501033a7e82bea20abb6:-286634024</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 14:58:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_icon">sys_sg_icon</sys_db_object>
+        <sys_id>54cd3b85db784643b041158619dafbf9</sys_id>
+        <sys_metadata>7511c3d91b2c50108d42ddbbbc4bcbb4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Icon</sys_name>
+        <sys_package display_value="Welcome Back Mobile" source="x_snc_welcome_back">610e72591b2c50108d42ddbbbc4bcbde</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Welcome Back Mobile">610e72591b2c50108d42ddbbbc4bcbde</sys_scope>
+        <sys_scope_delete display_value="">33c63ae650b04e5eabf6c13fa55c5684</sys_scope_delete>
+        <sys_update_name>sys_sg_icon_7511c3d91b2c50108d42ddbbbc4bcbb4</sys_update_name>
+        <sys_update_version display_value="sys_sg_icon_7511c3d91b2c50108d42ddbbbc4bcbb4">f511c3d91b2c50108d42ddbbbc4bcbb6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 14:58:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
